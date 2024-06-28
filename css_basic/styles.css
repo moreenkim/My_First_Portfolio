@@ -3,17 +3,21 @@ body, main {
 }
 
 body {
+    background-color: lightgrey;
     flex-direction: column;
+    background-image: url("image.png");
 }
 main {
     flex-direction: row;
     flex: auto;
 }
 article {
+    background-color: lightgoldenrodyellow;
     flex: 2;
     overflow-y: auto;
 }
 aside {
+    background-color: #4AB0B5;
     flex: 1;
     overflow-y: auto;
 }
